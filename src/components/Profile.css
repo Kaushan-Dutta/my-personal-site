@@ -1,0 +1,38 @@
+
+.profile .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.profile .container .profile-image{
+    background-color: none;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.profile .container .profile-image img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit:cover;
+    
+
+}
+.profile .container .profile-detail{
+    text-align: center;
+
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.profile .container .profile-name{
+    font-family: 'Comforter Brush', cursive;
+
+    font-size: 50px;
+
+}

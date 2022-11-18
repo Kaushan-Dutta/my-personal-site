@@ -1,0 +1,76 @@
+.home-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.home-page .container {
+    text-align: center;
+
+}
+
+.home-page .container .portfolio {
+    font-size: 100px;
+    font-family: 'Dosis', sans-serif;
+    
+    font-weight: 500;
+
+
+
+
+}
+@media screen and (max-width:1000px) {
+    .home-page .container .portfolio {
+        font-size: 60px;
+        font-family: 'Dosis', sans-serif;
+        
+        font-weight: 500;
+    
+    
+    
+    
+    }
+}
+@media screen and (max-width:700px) {
+    .home-page .container .portfolio {
+        font-size: 40px;
+        font-family: 'Dosis', sans-serif;
+       
+        font-weight: 500;
+    
+    
+    
+    
+    }
+}
+
+.home-page .container .portfolio span{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+
+}
+.home-page .container h2{
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
+    color: white;
+
+}
+.home-page .container button{
+    width: 150px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    
+    align-items: center;
+    border-radius: 5px;
+    
+    color: white;
+    height: 50px;
+    border: solid  #0db120;
+    background-color: transparent;
+    cursor: pointer;
+
+}
