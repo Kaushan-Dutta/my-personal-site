@@ -4,9 +4,9 @@ html{
 .navbar{
     display: flex;
     justify-content: center;
+    margin: auto;
     z-index: 2;
-    overflow-y: hidden;
-    overflow-x: hidden;
+    
 
 }
 .navbar .container{
