@@ -94,7 +94,7 @@ const Navbar = () => {
               <input
                 type="color"
                 onChange={(event) => {
-                  console.log(event.target.value);
+                  
                   setTheme(event.target.value);
                 }} value={theme}
               />

@@ -4,7 +4,7 @@ import { Typewriter } from 'react-simple-typewriter';
 
 
 const Home = ({theme,mode}) => {
-    console.log(theme,mode);
+    
     return (
         <>
             <div className='home-page' id="home" style={{backgroundColor:mode=='0'?"rgb(37, 36, 36)":"#D6E4E5"}}>
