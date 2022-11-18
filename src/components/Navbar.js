@@ -32,7 +32,7 @@ const Navbar = () => {
      <Home theme={theme} mode={mode}/>
 
       <div className="navbar" style={{backgroundColor:mode=='0'?"rgb(37, 36, 36)":"#F1F1F1"}}>
-        <div className="container">
+        <div className="Container">
           <ul>
             <li>
               <a href="#home">

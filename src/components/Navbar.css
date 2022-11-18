@@ -10,13 +10,13 @@ html{
     
 
 }
-.navbar .container{
+.navbar .Container{
     background-color:  #06283D;
     height: 50px;
     border-radius: 30px;
     position: fixed;
     top: 85vh;
-    width: 100%;
+    width: 95%;
     border: solid white;
     margin:auto;
 
@@ -26,7 +26,7 @@ html{
     
     
 }
-.navbar .container ul{
+.navbar .Container ul{
     color: #fff;
     width: 100%;
     display: flex;
@@ -37,29 +37,29 @@ html{
     top: 7px;
     left: -15px;
 }
-.navbar .container ul li{
+.navbar .Container ul li{
     cursor: pointer;
     list-style-type: none;
 }
-.navbar .container ul li a{
+.navbar .Container ul li a{
    text-decoration: none;
 }
 @media screen and (max-width:900px) {
-    .navbar .container ul li span{
+    .navbar .Container ul li span{
         display: none;
     }
     
 }
 @media screen and (max-width:600px) {
-    .navbar .container {
+    .navbar .Container {
         width: 90%;
     }
     
 }
 @media screen and (max-width:450px) {
-    .navbar .container {
+    .navbar .Container {
         width: 100%;
     }
     
 }
-.navbar .container a{color:#fff;}
+.navbar .Container a{color:#fff;}
