@@ -31,7 +31,7 @@ const Navbar = () => {
 
      <Home theme={theme} mode={mode}/>
 
-      <div className="navbar" style={{backgroundColor:mode=='0'?"rgb(37, 36, 36)":"#F1F1F1"}}>
+      {/* <div className="navbar" style={{backgroundColor:mode=='0'?"rgb(37, 36, 36)":"#F1F1F1"}}>
         <div className="Container">
           <ul>
             <li>
@@ -133,7 +133,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
       <Profile theme={theme} mode={mode}/>
       <Skill theme={theme} mode={mode}/>
       <Project theme={theme} mode={mode}/>
