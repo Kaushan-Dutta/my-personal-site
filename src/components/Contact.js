@@ -52,7 +52,7 @@ const Contact = ({theme,mode}) => {
             <p id="copyright">©KaushanDutta 2022</p>
             <br/>
             
-            <a href="#home" >
+            <a href="#home" className="flex flex-row justify-center">
                     <BsArrowUpCircle
                       style={{
                        

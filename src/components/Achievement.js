@@ -3,8 +3,7 @@ import React from "react";
 import "./Achievement.css";
 
 import { AiFillEye } from 'react-icons/ai';
-import { loadAchieve } from "./loadContent";
-
+import loadAchievements from "../constants/Achievements"
 
 const Achivement = ({theme,mode}) => {
   return (
@@ -16,7 +15,7 @@ const Achivement = ({theme,mode}) => {
           <div className="contents my-5">
 
            
-              {loadAchieve.map((object,id)=>{return (
+              {loadAchievements.map((object,id)=>{return (
                  <div className="item">
                    <div
                    className="block "

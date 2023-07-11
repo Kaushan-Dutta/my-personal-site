@@ -5,8 +5,8 @@ const Newsletter = ({theme,mode}) => {
   return (
     <>
       <div className="newsletter py-5" style={{backgroundColor:mode=='0'?"rgb(50, 49, 49)":"#F1F1F1"}}>
-        <div className="container px-5 py-5" style={{backgroundColor:mode=='0'?"rgb(37, 36, 36)":"#D6E4E5"}}>
-          <div className="content px-2">
+        <div className="container px-5 py-5 " style={{backgroundColor:mode=='0'?"rgb(37, 36, 36)":"#D6E4E5"}}>
+          <div className="content px-2 flex flex-col justify-start space-y-5">
             <h1 style={{color:mode=='0'?"#fff":"rgb(37, 36, 36)"}}>Sign Up my Newsletter</h1>
             <br/>
             <p style={{color:mode=='0'?"#fff":"rgb(37, 36, 36)"}}>

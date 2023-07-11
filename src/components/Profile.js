@@ -2,6 +2,7 @@ import React from "react";
 import Image from "../images/profile.png";
 import "./Profile.css";
 
+
 const Profile = ({ theme, mode }) => {
   return (
     <>

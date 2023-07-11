@@ -15,7 +15,7 @@
 .skills .container .tech {
     padding: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     
 }
@@ -27,8 +27,7 @@
     width: 90px;
     border-radius: 5px;
     margin: 10px 5px;
-    margin-right: 15px;
-
+    
 
 }
 

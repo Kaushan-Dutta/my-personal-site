@@ -3,8 +3,7 @@ import React from 'react';
 import './Project.css';
 import { BsGithub } from 'react-icons/bs';
 import { AiFillEye } from 'react-icons/ai';
-import loadContent from './loadContent';
-
+import loadProjects from '../constants/Projects';
 
 const Project = ({theme,mode}) => {
   return (
@@ -17,7 +16,7 @@ const Project = ({theme,mode}) => {
 
          <div className='project-block mt-5' >
          {
-          loadContent.map((object,key)=>{
+          loadProjects.map((object,key)=>{
             return(<>
             <div className='item'>
              
